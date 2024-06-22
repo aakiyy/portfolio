@@ -1,19 +1,35 @@
 import React from 'react';
-import './App.css';
-import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 import About from './components/About';
+import History from './components/History';
+import Skill from './components/Skill';
 import Projects from './components/Projects';
-import Footer from './components/Footer';
+import Contact from './components/Contact';
+import { Element } from 'react-scroll';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <Header />
-      <main>
+      <Navbar />
+      <Element name="home">
+        <Home />
+      </Element>
+      <Element name="about">
         <About />
+      </Element>
+      <Element name="history">
+        <History />
+      </Element>
+      <Element name="skill">
+        <Skill />
+      </Element>
+      <Element name="projects">
         <Projects />
-      </main>
-      <Footer />
+      </Element>
+      <Element name="contact">
+        <Contact />
+      </Element>
     </div>
   );
 }
