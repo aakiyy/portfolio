@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import History from './components/History';
-import Skill from './components/Skill';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { Element } from 'react-scroll';
@@ -22,7 +22,7 @@ const App: React.FC = () => {
         <History />
       </Element>
       <Element name="skill">
-        <Skill />
+        <Skills />
       </Element>
       <Element name="projects">
         <Projects />
