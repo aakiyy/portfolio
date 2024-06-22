@@ -21,7 +21,7 @@ const App: React.FC = () => {
       <Element name="history">
         <History />
       </Element>
-      <Element name="skill">
+      <Element name="skills">
         <Skills />
       </Element>
       <Element name="projects">
