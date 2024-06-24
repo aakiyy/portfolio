@@ -1,0 +1,61 @@
+/* src/Timeline.css */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin: 10px 0;
+  }
+  
+  .timeline-item-content {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+  
+  .timeline-item-content::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: inherit;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    top: 20px;
+    left: -8px;
+  }
+  
+  .timeline-item-year {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .timeline-item-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-item-description {
+    margin: 0;
+  }
+  
+  .timeline-item-content.yellow {
+    border-left: 4px solid yellow;
+  }
+  
+  .timeline-item-content.red {
+    border-left: 4px solid red;
+  }
+  
+  .timeline-item-content.green {
+    border-left: 4px solid green;
+  }
+  
+  .timeline-item-content.blue {
+    border-left: 4px solid blue;
+  }
+  

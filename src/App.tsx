@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Home from './components/Home';
-import About from './components/About';
-import History from './components/History';
-import Skills from './components/Skills';
+import About from './components/about/About';
+import History from './components/history/History';
+import Skills from './components/skills/Skills';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Contact from './components/contact/Contact';
 import { Element } from 'react-scroll';
 
 const App: React.FC = () => {
